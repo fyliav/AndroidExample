@@ -50,4 +50,8 @@ dependencies {
         "httpengine_native_provider_java.jar",
         "cronet_impl_native_sentinel_java.jar"
     ))
+    
+    // Cronet implementation dependencies
+    implementation("com.google.protobuf:protobuf-javalite:3.25.1")
+    implementation("androidx.annotation:annotation:1.7.0")
 }
