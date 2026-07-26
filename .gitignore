@@ -18,3 +18,4 @@ app/release
 /.idea/.name
 /.artifacts/*
 /.idea/planningMode.xml
+build

@@ -89,6 +89,7 @@
             <Button android:id="@+id/button_webview" style="@style/GridButton" android:text="WebView JSB" />
             <Button android:id="@+id/button_jnibridge" style="@style/GridButton" android:text="JNIBridge" />
             <Button android:id="@+id/button_openssl" style="@style/GridButton" android:text="OpenSSL" />
+            <Button android:id="@+id/button_cronet" style="@style/GridButton" android:text="Cronet 请求" />
 
         </GridLayout>
 

@@ -134,6 +134,11 @@
             android:exported="false"
             android:theme="@style/Theme.CyReverse" />
         <activity
+            android:name=".cronet.CronetActivity"
+            android:exported="false"
+            android:label="Cronet Example"
+            android:theme="@style/Theme.CyReverse" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

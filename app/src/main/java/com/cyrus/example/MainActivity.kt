@@ -14,6 +14,7 @@ import com.cyrus.example.assembly.AssemblyActivity
 import com.cyrus.example.base64.Base64Activity
 import com.cyrus.example.classloader.ClassLoaderActivity
 import com.cyrus.example.crc32.CRC32Activity
+import com.cyrus.example.cronet.CronetActivity
 import com.cyrus.example.device_fingerprint.DeviceFingerprintActivity
 import com.cyrus.example.fart.FartActivity
 import com.cyrus.example.frida_disassemble.FridaDisassembleActivity
@@ -357,6 +358,15 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(
                 this@MainActivity,
                 OpenSSLActivity::class.java
+            )
+            startActivity(intent)
+        }
+
+        // Cronet
+        findViewById<Button>(R.id.button_cronet).setOnClickListener {
+            val intent = Intent(
+                this@MainActivity,
+                CronetActivity::class.java
             )
             startActivity(intent)
         }
