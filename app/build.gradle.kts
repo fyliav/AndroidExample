@@ -90,6 +90,7 @@ android {
 
 dependencies {
     implementation(project(":vmp"))
+    implementation(project(":cronet"))
 
     // Retrofit 核心库
     implementation(libs.retrofit)
